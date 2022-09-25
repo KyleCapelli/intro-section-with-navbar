@@ -1,0 +1,99 @@
+.hero__container {
+  padding-top: 80px;
+}
+.hero__image {
+  width: 100%;
+}
+
+.hero__image img {
+  width: 100%;
+}
+
+.hero__content {
+  text-align: center;
+  max-width: 90%;
+  margin: 2.5rem auto 0;
+}
+
+.hero__content p {
+  margin-top: 1rem;
+  color: #686868;
+  line-height: 1.5;
+}
+
+.hero__content button {
+  margin-top: 1rem;
+  color: white;
+  background: black;
+  padding: 0.8rem 1.5rem;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.hero__company-logo-container {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero__company-logo-container .hero__audiophile {
+  width: 15%;
+}
+
+.hero__company-logo-container img {
+  width: 20%;
+}
+
+@media only screen and (min-width: 1068px) {
+  .hero__container {
+    display: flex;
+    min-height: 900px;
+    height: 100vh;
+    align-items: center;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .hero__image {
+    width: 80%;
+    order: 1;
+  }
+
+  .hero__content {
+    text-align: left;
+    width: 80%;
+    margin: 0 2rem 0 0;
+  }
+
+  .hero__content h1 {
+    font-size: 5rem;
+  }
+
+  .hero__content p {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+  }
+
+  .hero__content button {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    padding: 1.2rem 2rem;
+  }
+
+  .hero__company-logo-container {
+    margin: 5rem 0 0 0;
+  }
+}
+
+@media only screen and (min-width: 1165px) {
+  .hero__image {
+    text-align: right;
+  }
+
+  .hero__image img {
+    width: 500px;
+    margin: -130px auto 0;
+  }
+}
